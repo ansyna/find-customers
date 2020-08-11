@@ -1,0 +1,9 @@
+To install
+You would need a php server / interpreter to run this program (can be run within IDE with the script below to be executed directly)
+
+To execute
+From the root directory run script index.php
+
+To run tests
+From the root directory run:
+ ./phpunit --bootstrap src/autoload.inc.php --testdox tests
